@@ -1,0 +1,160 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.img{
+    width: 100%;
+}
+
+
+.navigator{
+    min-height: 60px;
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 50px;
+    background-color: #FF6900;
+}
+
+.sx, .dx{
+    width: calc(100% / 6);
+    
+}
+
+.centro{
+    width: calc((100% / 3) * 2);
+    display: flex;
+    justify-content: center;
+}
+
+.dx{
+    
+    color: white;
+    
+
+}
+
+header .navigator nav ul{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+header .navigator nav ul > li > a{
+   
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+    font-size: 1,2rem;
+    
+    
+
+}
+
+.logo{
+    max-height: 30px;
+    width: auto;
+}
+
+.fashion{
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: bottom 40px; 
+    
+}
+
+.item{
+    width: calc(100% / 3);
+}
+
+.photo{
+    max-height: 500px;
+    width: 100%;
+    display: inline;
+    
+    
+
+}
+
+.model:hover .photo-2{
+    display: block;
+}
+
+.photo-2{
+    max-height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    
+    
+
+}
+.love{
+    width: 35px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.model{
+    position: relative;
+    
+    
+}
+
+.saldo{
+    background-color: red;
+    width: 50px;
+    margin-right: 5px;
+    
+}
+
+.sostenibili{
+    background-color: green;
+    width: 80px;
+    padding: 5px;
+
+}
+
+.sconto{
+    position: absolute;
+    display: flex;
+    bottom: 100px;
+    padding: 1px;
+}
+
+.piedi-foto{
+    padding: 5px;
+}
+
+
+.black{
+    background-color: black;
+}
+
+h3{
+    color: white;
+}
+
+
+
+
+
+
+
